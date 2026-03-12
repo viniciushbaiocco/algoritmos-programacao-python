@@ -109,21 +109,30 @@
 ##            print (n * 1.05)
 
 ## exercicio 11: identificar o quadrante de um ponto no plano cartesiano
-
 ##x= int(input("x: "))
 ##y= int(input("y: "))
-
-##if x > 0 and y > 0:
-##    print("1° quadrante")
-##else:
-##    if x < 0 and y > 0:
-##        print ("2° quadrante")
+##if x ==0:
+##    if y == 0:
+##        print("origem")
 ##    else:
-##          if x < 0 and y < 0:
-##            print ("3° quadrante")
-##          else:
-##              if x > 0 and y < 0:
-##                  print ("4° quadrante")
+##        print("eixo y")
+##else:
+##    if x>0:
+##        if y==0:
+##            print("eixo x, porem x positivo")
+##        else:
+##            if y>0:
+##                print("Q1")
+##            else:
+##                print("Q4")
+##    else:
+##        if y==0:
+##            print("eixo x, porem x negativo")
+##        else:
+##            if y>0:
+##                print("Q2")
+##            else:
+##                print("Q3")
 
 ## exercicio 12: verificar condição de existência do triangulo e classificar o tipo
 
@@ -151,20 +160,19 @@
 
 ##if a != 0:
 ##    delta = (b**2 - 4*a*c)
-##    if (delta) < 0:
+##    if delta < 0:
 ##        print("não ha raizes reais")
 ##    else:
 ##        if (delta) == 0:
 ##            x = (-b)/(2*a)
 ##            print (f"há uma raiz real: {x}")
 ##        else:
-##            if (delta) > 0:
+##            if delta > 0:
 ##                x1= (-b + delta**0.5)/(2*a)
 ##                x2= (-b - delta**0.5)/(2*a)
 ##                print(f"há duas raizes reais distintas: {x1},{x2}")
 ##else:
-##    if a == 0:
-##        print("não existe equação do segundo grau com A = 0")
+##     print("não existe equação do segundo grau com A = 0")
 
 ## exercicio 14: resolver sistema linear quando divisao é possivel
 
@@ -183,5 +191,5 @@
 ##else:
 ##    print ("infinitas soluções ou nenhuma solução")
 
-# VALE NOTAR : x + y = 2 e 2x + 2y é uma solução infinita
+# VALE NOTAR : x + y = 2 e 2x + 2y = 4 é uma solução infinita
 # VALE NOTAR : a=1 b=1 c=2 d=2 e=2 f=5 é uma solucao invalida, pois x+y = 2 e 2x+2y = 5
