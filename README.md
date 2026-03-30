@@ -6,7 +6,7 @@ Aqui voce vai encontrar codigos simples e progressivos, feitos durante o process
 
 ## Conteudo
 
-- [aula-03-selecaomultipla.py](/home/vinicius/projetos-universidade/ALGPROG_1sem/aula-03-selecaomultipla.py): exercicios com `if`, `elif` e `else`
+- [aula 03-selecaomultipla.py](/home/vinicius/projetos-universidade/ALGPROG_1sem/aula%2003-selecaomultipla.py): exercicios com `if`, `elif` e `else`
 - [aula 04-introducao a while.py](/home/vinicius/projetos-universidade/ALGPROG_1sem/aula%2004-introducao%20a%20while.py): praticas iniciais com `while`
 - [aula 05-matchcase-repeticao.py](/home/vinicius/projetos-universidade/ALGPROG_1sem/aula%2005-matchcase-repeticao.py): exercicios com `match case` e repeticao
 - [aula 06-introducao a for-range.py](/home/vinicius/projetos-universidade/ALGPROG_1sem/aula%2006-introducao%20a%20for-range.py): exercicios com `for` e `range`
